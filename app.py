@@ -15,7 +15,6 @@ from prn_to_excel import prn_to_excel, parse_prn
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Pigeon PRN Converter",
-    page_icon="🐦",
     layout="centered",
 )
 
@@ -93,7 +92,7 @@ st.markdown("""
 
 
 # ── Header ────────────────────────────────────────────────────────────────────
-st.markdown("# 🐦 Pigeon PRN Converter")
+st.markdown("#Pigeon PRN Converter")
 st.markdown(
     "Upload one or more MED-PC `.PRN` files. "
     "All files will be combined into a single Excel workbook, "
