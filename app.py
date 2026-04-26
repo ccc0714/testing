@@ -92,7 +92,7 @@ st.markdown("""
 
 
 # ── Header ────────────────────────────────────────────────────────────────────
-st.markdown("#Pigeon PRN Converter")
+st.markdown("Pigeon PRN Converter")
 st.markdown(
     "Upload one or more MED-PC `.PRN` files. "
     "All files will be combined into a single Excel workbook, "
