@@ -10,7 +10,7 @@ import streamlit as st
 import tempfile
 import os
 import io
-from prn_to_excel import prn_to_excel, parse_prn, format_date, format_time
+from prn_to_excel import prn_to_excel, parse_prn
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
